@@ -1,0 +1,44 @@
+# Docker specific
+.env
+docker-compose.override.yml
+*.env.local
+
+# Docker volumes and data
+data/
+volumes/
+mysql/
+postgres/
+
+# Docker secrets
+secrets/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.*
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+dump.rdb
+
+# Build and temporary files
+*.tmp
+*.bak
+.cache/
+dist/
+build/
